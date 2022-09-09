@@ -35,11 +35,11 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/istockphoto-474230722-170667a-removebg-preview.png",
-        "image_overlay_opacity": 30,
+        "image": "shopify:\/\/shop_images\/mobile-banner.jpg",
+        "image_overlay_opacity": 60,
         "image_height": "large",
         "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
