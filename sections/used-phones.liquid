@@ -42,7 +42,7 @@
 {% for item in blocks %}
     {% case block.type %}
       {% when 'text' %}
-          <h4>{{ item.used_phones_name }}</h4>
+          <h4>{{ item.settings.used_phones_name }}</h4>
       {% else %}
     {% endcase %}
 {% endfor %}
