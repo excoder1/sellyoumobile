@@ -1,32 +1,8 @@
 {% schema %}
   {
     "name": "Old mobiles",
-    "settings": [
-    	{
-        "type": "text",
-        "id": "title",
-        "label": "Title"
-      },
-      {
-        "type": "url",
-        "id": "url",
-        "label": "url"
-      }
-    ],
-    "blocks": [
-      {
-        "name" : "used_mobile",
-        "type"  : "Text",
-        "label" : "Add the link for used mobile",
-        "settings": [
-          {
-            "type": "text",
-            "id": "used_phones_name",
-            "label": "Heading"
-          }
-        ]
-      }
-    ],
+    "settings": [],
+
      "presets": [
       {
         "name": "Old mobiles",
@@ -34,19 +10,10 @@
       }
     ]
   }
-
 {% endschema %}
 
-<h2 class="center used-phones-heading">{{ settings.id }}</h2>
-<p>If you are intereested <a href="{{ settings.url }}">click here</a>!</p>
-
-{% for item in blocks %}
-    {% case block.type %}
-      {% when 'text' %}
-          <h4>{{ item.used_phones_name }}</h4>
-      {% else %}
-    {% endcase %}
-{% endfor %}
+<h2 class="center used-phones-heading">Sell your Used phone!</h2>
+<p>If you are intereested <a href="#">click here</a>!</p>
 
 {% stylesheet %}
 
