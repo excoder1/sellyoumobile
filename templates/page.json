@@ -9,7 +9,34 @@
     },
     "16629668990ef1b594": {
       "type": "used-phones",
+      "blocks": {
+        "8658c56a-9d6f-4fc9-9746-7d84545c019b": {
+          "type": "text",
+          "settings": {
+            "used_phones_name": "Nokia"
+          }
+        },
+        "4dca1932-1cee-410e-9b37-378e17baaeb7": {
+          "type": "text",
+          "settings": {
+            "used_phones_name": "iphone"
+          }
+        },
+        "0cf1fe9c-4305-4922-9e07-3132204cb209": {
+          "type": "text",
+          "settings": {
+            "used_phones_name": "infinix"
+          }
+        }
+      },
+      "block_order": [
+        "8658c56a-9d6f-4fc9-9746-7d84545c019b",
+        "4dca1932-1cee-410e-9b37-378e17baaeb7",
+        "0cf1fe9c-4305-4922-9e07-3132204cb209"
+      ],
       "settings": {
+        "title": "Want to Buy used phones?",
+        "url": ""
       }
     }
   },
