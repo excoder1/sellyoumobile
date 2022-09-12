@@ -39,7 +39,7 @@
 <h2 class="center used-phones-heading">{{ section.settings.title }}</h2>
 <p>If you are intereested <a href="{{ section.settings.url }}">click here</a>!</p>
 
-{% for item in blocks %}
+{% for item in section.blocks %}
   {{ item.type }}
 <!--     {% case item.type %}
       {% when 'phones' %}
