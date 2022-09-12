@@ -40,7 +40,7 @@
 <p>If you are intereested <a href="{{ section.settings.url }}">click here</a>!</p>
 
 {% for item in blocks %}
-    {% case block.type %}
+    {% case item.type %}
       {% when 'text' %}
           <h4>{{ item.settings.used_phones_name }}</h4>
       {{ item }}
