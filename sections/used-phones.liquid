@@ -1,8 +1,31 @@
 {% schema %}
   {
     "name": "Old mobiles",
-    "settings": [],
-
+    "settings": [
+    	{
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "url",
+        "id": "url",
+        "label": "url"
+      }
+    ],
+    "blocks": [
+      {
+        "name" : "used_mobile",
+        "type"  : "Text",
+        "settings": [
+          {
+            "type": "text",
+            "id": "used_phones_name",
+            "label": "Heading"
+          }
+        ]
+      }
+    ],
      "presets": [
       {
         "name": "Old mobiles",
