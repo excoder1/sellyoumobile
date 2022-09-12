@@ -16,7 +16,7 @@
     "blocks": [
       {
         "name" : "used_mobile",
-        "type"  : "text",
+        "type"  : "phones",
         "settings": [
           {
             "type": "text",
@@ -41,7 +41,7 @@
 
 {% for item in blocks %}
     {% case item.type %}
-      {% when 'text' %}
+      {% when 'phones' %}
 <!-- <h4>{{ item.settings.used_phones_name }}</h4> -->
       {{ item }}
       {% else %}
