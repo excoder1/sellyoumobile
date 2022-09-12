@@ -34,8 +34,8 @@
     ]
   }
 {% endschema %}
-<h2 class="center used-phones-heading">{{ settings.id }}</h2>
-<p>If you are intereested <a href="{{ settings.url }}">click here</a>!</p>
+<h2 class="center used-phones-heading">{{ section.settings.id }}</h2>
+<p>If you are intereested <a href="{{ section.settings.url }}">click here</a>!</p>
 
 {% for item in blocks %}
     {% case block.type %}
