@@ -2,7 +2,7 @@
   {
     "name": "Old mobiles",
     "settings": [],
-  
+
      "presets": [
       {
         "name": "Old mobiles",
@@ -10,13 +10,31 @@
       }
     ]
   }
- 
+
 {% endschema %}
 
-<h2>Sell your Used phone!</h2>
+<h2 class="center used-phones-heading">Sell your Used phone!</h2>
 <p>If you are intereested <a href="#">click here</a>!</p>
 
 {% stylesheet %}
+ .used-phones-heading {
+    animation: 2s animated alternate-reverse infinite;
+ }
+
+ @keyframes animated {
+   0%{
+    transform: translateX(0px);
+   }
+
+   50% {
+      transform: translateX(50px);
+   }
+
+   100% {
+    transform: translateX(100px);
+   }
+ }
+
 {% endstylesheet %}
 
 {% javascript %}
