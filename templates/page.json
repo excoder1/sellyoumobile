@@ -6,9 +6,15 @@
         "padding_top": 40,
         "padding_bottom": 28
       }
+    },
+    "16629668990ef1b594": {
+      "type": "used-phones",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16629668990ef1b594"
   ]
 }
