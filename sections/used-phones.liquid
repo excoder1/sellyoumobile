@@ -34,7 +34,7 @@
     ]
   }
 {% endschema %}
-<h2 class="center used-phones-heading">{{ section.settings.id }}</h2>
+<h2 class="center used-phones-heading">{{ section.settings.id | default: "Used phones" }}</h2>
 <p>If you are intereested <a href="{{ section.settings.url }}">click here</a>!</p>
 
 {% for item in blocks %}
