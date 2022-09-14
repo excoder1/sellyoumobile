@@ -1,8 +1,40 @@
 {% schema %}
   {
     "name": "Old mobiles",
-    "settings": [
-    	{
+    "settings": [],
+     "presets": [
+      {
+        "name": "Old mobiles",
+        "category": "Custom"
+      }
+    ]
+  }
+{% endschema %}
+
+<!-- <h2 class="center used-phones-heading">{{ section.settings.id | default: "Used phones" }}</h2>
+<p>If you are intereested <a href="{{ section.settings.url }}">click here</a>!</p> -->
+
+<!-- {% for item in blocks %}
+    {% case block.type %}
+      {% when 'text' %}
+          <h4>{{ item.used_phones_name }}</h4>
+      {% else %}
+    {% endcase %}
+{% endfor %} -->
+
+{% stylesheet %}
+
+{% endstylesheet %}
+
+<style>
+
+
+</style>
+
+{% javascript %}
+{% endjavascript %}
+
+<!-- {
         "type": "text",
         "id": "title",
         "label": "Title"
@@ -24,6 +56,7 @@
             "label": "Heading"
           }
         ]
+<<<<<<< Updated upstream
       }
     ],
      "presets": [
@@ -46,9 +79,11 @@
 {% stylesheet %}
 
 {% endstylesheet %}
+=======
+      } -->
+>>>>>>> Stashed changes
 
-<style>
-   .used-phones-heading {
+         <!-- .used-phones-heading {
     animation: 2s animated alternate-reverse infinite;
     color: red;
  }
@@ -65,9 +100,4 @@
    100% {
     transform: translateX(100px);
    }
- }
-
-</style>
-
-{% javascript %}
-{% endjavascript %}
+ } -->
