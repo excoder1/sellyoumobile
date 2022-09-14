@@ -9,39 +9,55 @@
     },
     "16629668990ef1b594": {
       "type": "used-phones",
+      "settings": {
+        "title": "Want to Buy used phones?",
+        "url": ""
+      }
+    },
+    "166313410699688f2b": {
+      "type": "collection-list",
       "blocks": {
-        "8658c56a-9d6f-4fc9-9746-7d84545c019b": {
-          "type": "text",
+        "16631341064af273ea-0": {
+          "type": "featured_collection",
           "settings": {
-            "used_phones_name": "Nokia"
+            "collection": ""
           }
         },
-        "4dca1932-1cee-410e-9b37-378e17baaeb7": {
-          "type": "text",
+        "16631341064af273ea-1": {
+          "type": "featured_collection",
           "settings": {
-            "used_phones_name": "iphone"
+            "collection": ""
           }
         },
-        "0cf1fe9c-4305-4922-9e07-3132204cb209": {
-          "type": "text",
+        "16631341064af273ea-2": {
+          "type": "featured_collection",
           "settings": {
-            "used_phones_name": "infinix"
+            "collection": ""
           }
         }
       },
       "block_order": [
-        "8658c56a-9d6f-4fc9-9746-7d84545c019b",
-        "4dca1932-1cee-410e-9b37-378e17baaeb7",
-        "0cf1fe9c-4305-4922-9e07-3132204cb209"
+        "16631341064af273ea-0",
+        "16631341064af273ea-1",
+        "16631341064af273ea-2"
       ],
       "settings": {
-        "title": "Want to Buy used phones?",
-        "url": ""
+        "title": "Some Used Phones!",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "16629668990ef1b594"
+    "16629668990ef1b594",
+    "166313410699688f2b"
   ]
 }
